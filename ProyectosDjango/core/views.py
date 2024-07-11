@@ -675,7 +675,7 @@ def enviar_correo_cambio_password(request, user, password):
             'user_password': password,
             'link_to_login': url_ingresar,
         })
-        from_email = 'info@faithfulpet.com'  # La dirección de correo que aparecerá como remitente
+        from_email = 'info@monkeygames.com'  # La dirección de correo que aparecerá como remitente
         recipient_list = []
         recipient_list.append(user.email)
         # Enviar el correo

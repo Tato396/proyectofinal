@@ -105,13 +105,13 @@ def poblar_bd(test_user_email=''):
         tipo='Cliente', 
         nombre='joaquin', 
         apellido='lagos', 
-        correo=test_user_email if test_user_email else 'joaquin@gmail.com', 
+        correo=test_user_email if test_user_email else 'joaquin@marvels.com', 
         es_superusuario=False, 
         es_staff=False, 
         rut='12.202.357-5', 
         direccion='Albert Street, New York, \nNew York 10001 \nEstados Unidos', 
         subscrito=True, 
-        imagen='perfiles/user4.jpg')
+        imagen='perfiles/user4.png')
 
     crear_usuario(
         username='eme',
@@ -131,7 +131,7 @@ def poblar_bd(test_user_email=''):
         tipo='Cliente', 
         nombre='Scarlett', 
         apellido='Johansson', 
-        correo=test_user_email if test_user_email else 'sjohansson@gmail.com.com', 
+        correo=test_user_email if test_user_email else 'sjohansson@gmail.com', 
         es_superusuario=False, 
         es_staff=False, 
         rut='16.469.725-8', 
@@ -196,7 +196,7 @@ def poblar_bd(test_user_email=''):
             'id': 1,
             'categoria': Categoria.objects.get(id=1),
             'nombre': 'Grand Theft Auto V',
-            'descripcion': 'Grand Theft Auto V te sumerge en la soleada ciudad de Los Santos y sus alrededores, donde seguirás las historias entrelazadas de tres criminales muy diferentes mientras planean y ejecutan audaces atracos para sobrevivir en una ciudad despiadada. Disfruta de un mundo abierto enorme y detallado, con una gran variedad de misiones, actividades y desafíos, además de un modo online multijugador en constante evolución.',
+            'descripcion': 'Grand Theft AutoV te sumerge en la soleada ciudad de Los Santos y sus alrededores, donde seguirás las historias entrelazadas de tres criminales muy diferentes mientras planean y ejecutan audaces atracos para sobrevivir en una ciudad despiadada. Disfruta de un mundo abierto enorme y detallado, con una gran variedad de misiones, actividades y desafíos, además de un modo online multijugador en constante evolución.',
             'precio': 29990,
             'descuento_subscriptor': 5,
             'descuento_oferta': 15,
@@ -210,7 +210,7 @@ def poblar_bd(test_user_email=''):
             'precio': 59990,
             'descuento_subscriptor': 5,
             'descuento_oferta': 10,
-            'imagen': 'productos/000002.jpg'
+            'imagen': 'productos/rdr2.png'
         },
         {
             'id': 3,
@@ -220,7 +220,7 @@ def poblar_bd(test_user_email=''):
             'precio': 69990,
             'descuento_subscriptor': 5,
             'descuento_oferta': 0,
-            'imagen': 'productos/000003.jpg'
+            'imagen': 'productos/modernw2.jpg'
         },
         {
             'id': 4,
@@ -250,7 +250,7 @@ def poblar_bd(test_user_email=''):
             'precio': 59990,
             'descuento_subscriptor': 5,
             'descuento_oferta': 10,
-            'imagen': 'productos/000006.jpg'
+            'imagen': 'productos/elden-ring-ps5.jpg'
         },
         {
             'id': 7,
@@ -322,7 +322,7 @@ def poblar_bd(test_user_email=''):
             'precio': 39990,
             'descuento_subscriptor': 5,
             'descuento_oferta': 5,
-            'imagen': 'productos/000013.jpg'
+            'imagen': 'productos/cv6.jpg'
         },
         {
             'id': 14,
@@ -332,7 +332,7 @@ def poblar_bd(test_user_email=''):
             'precio': 19990,
             'descuento_subscriptor': 5,
             'descuento_oferta': 15,
-            'imagen': 'productos/000014.jpg'
+            'imagen': 'productos/xcom-2.jpg'
         },
         {
             'id': 15,
@@ -363,7 +363,7 @@ def poblar_bd(test_user_email=''):
             'precio': 29990,
             'descuento_subscriptor': 5,
             'descuento_oferta': 10,
-            'imagen': 'productos/000017.jpg'
+            'imagen': 'productos/thewitcher3.jpeg'
         },
         {
             'id': 18,

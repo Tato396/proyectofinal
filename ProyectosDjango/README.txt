@@ -3,6 +3,3 @@
 -Carllos Carrillo 003D car.carrillo@duocuc.cl
 
 -Vicente Silva vic.silvah@duocuc.cl("fue informada su salida en un formulario de cambio de grupo").
-
-REPOSITORIO:
-https://github.com/Tato396/proyectofinal/tree/main
