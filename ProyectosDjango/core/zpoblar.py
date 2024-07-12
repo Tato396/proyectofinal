@@ -200,7 +200,7 @@ def poblar_bd(test_user_email=''):
             'precio': 29990,
             'descuento_subscriptor': 5,
             'descuento_oferta': 15,
-            'imagen': 'productos/GTA5.webp'
+            'imagen': 'productos/GTA5.png'
         },
         {
             'id': 2,
